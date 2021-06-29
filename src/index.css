@@ -7,6 +7,7 @@ body {
   padding: 10px;
 }
 
+
 .Container_header{
   display: flex;
 }
@@ -80,5 +81,28 @@ body {
   border-radius: 50px;
   margin-left: 10px;
   border: 2px solid white;
+
+}
+
+.Slack_bot{
+  display: flex;
+}
+
+.Slack_button_one{
+  background-color: white;
+  color: black;
+  padding: 10px;
+  border-radius:50px
+
+}
+
+.Slack_button_two{
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border-radius: 50px;
+  margin-left: 10px;
+  border: 2px solid white;
+
 
 }

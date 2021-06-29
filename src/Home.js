@@ -62,6 +62,25 @@ const Home = () => {
 					</div>
 
 
+					<div className="Slack_bot">
+					<div className="Slack_bot_text">
+						<h1>A Slack-bot for creating and managing prototypes</h1>
+						<p> Building something special? we are always looking to work with partner who wants to help the world bring ideas to life</p>
+
+						<div className="Buttons_Slack">
+							<button className="Slack_button_one">Become a partner  </button>
+							<button className="Slack_button_two">View Integration</button>
+						</div>
+
+
+						<div className="image">
+							<img src="/images/botbot.png"></img>
+						</div>
+
+					</div>
+					</div>
+
+
 				</div>
 			</div>
 		</>
