@@ -42,9 +42,6 @@ ul {
   }
   .footer_media {
 	display: flex;
-	/* display: block; */
-	flex:2;
 	flex-wrap: wrap;
-	/* flex: 2; */
       }
 }
