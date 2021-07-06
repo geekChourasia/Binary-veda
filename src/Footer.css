@@ -41,10 +41,10 @@ ul {
     display: none;
   }
   .footer_media {
-    display: flex;
-    display: block;
-    flex:2;
-    /* flex-wrap: wrap; */
-    /* flex: 2; */
-  }
+	display: flex;
+	/* display: block; */
+	flex:2;
+	flex-wrap: wrap;
+	/* flex: 2; */
+      }
 }
