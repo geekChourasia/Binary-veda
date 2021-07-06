@@ -1,24 +1,39 @@
 import React from 'react'
 import './Header.css'
+import MenuIcon from '@material-ui/icons/Menu';
+// import {
+// 	BrowserRouter as Router,
+// 	Switch,
+// 	Route,
+// 	Link
+//     } from "react-router-dom";
 
 function Header() {
 	return (
 
-		<div className="Container_header">
-			<a>
-				<img src="/images/logo-blue.svg" ></img>
+		<div className="header">
 
-			</a>
+			<div className="left_header">
+				<img className="header_image" src="/images/logo-white.svg" ></img>
+				<p>|Developer</p>
+			</div>
 
-			<span className="header_items">
-				
-				<a href="#"> Why Marvel</a>
-				<a href="#"> Enterprise</a>
-				<a href="#"> Pricing</a>
-				<a href="#"> Sign in</a>
-				<a href="#"> Sign up free</a>
-			</span>
+			<div className="right_header">
+				<div className="menu_bar">
+					<MenuIcon />
 
+				</div>
+
+				<ul className="right_ul">
+					<li>Why Marvel</li>
+					<li>Enterprise</li>
+					<li>Pricing</li>
+					<li>Sign in</li>
+					<button className="sign_up_free">Sign up free</button>
+
+				</ul>
+
+			</div>
 
 		</div>
 

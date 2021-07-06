@@ -1,6 +1,6 @@
 body {
-  font-family: 'Roboto', sans-serif;
-  background-color: black;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #090f15;
   color: white;
   padding: 80px;
   margin: 10px;
@@ -8,101 +8,4 @@ body {
 }
 
 
-.Container_header{
-  display: flex;
-}
 
-.image img{
-  height: 400px;
-  width: 500px;
-  /* background-size:cover; */
-}
-
-
-.header_items{
-  color: white;
-
-}
-
-.Container_home{
-  display: flex;
-  margin-bottom: 60px;
-  
-}
-
-.Submit{
-  border-radius:50px;
-  background-color: skyblue;
-  padding: 10px;
-  color: white;
-}
-
-.View{
-  border-radius:50px;
-  background-color: white;
-  padding: 10px;
-  margin-left: 10px;
-  color:black;
-}
-
-.middle_image{
-  display: flex;
-  align-items: center;
-  margin: 30px;
-}
-
-.footer_main{
-  display: flex;
- justify-content:space-around;
-}
-
-
-.integration_directory{
-  display: flex;
-
-}
-/* .directory_text{
-  display: flex;
-} */
-
-
-
-.Partners{
-  background-color: white;
-  color: black;
-  padding: 10px;
-  border-radius:50px ;
-}
-
-.Integration{
-  background-color: black;
-  color: white;
-  padding: 10px;
-  border-radius: 50px;
-  margin-left: 10px;
-  border: 2px solid white;
-
-}
-
-.Slack_bot{
-  display: flex;
-}
-
-.Slack_button_one{
-  background-color: white;
-  color: black;
-  padding: 10px;
-  border-radius:50px
-
-}
-
-.Slack_button_two{
-  background-color: black;
-  color: white;
-  padding: 10px;
-  border-radius: 50px;
-  margin-left: 10px;
-  border: 2px solid white;
-
-
-}
